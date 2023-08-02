@@ -1,2 +1,6 @@
 [context.production.environment]
   HUGO_VERSION = "0.115.4"
+
+[build]
+publish = "public"
+command = "npm i -g postcss-cli && npm run build"
