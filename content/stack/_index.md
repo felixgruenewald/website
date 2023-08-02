@@ -1,4 +1,4 @@
 ---
 title: Stack
-description: Tools I use everyday
+description: Ignore that, it's not finished
 ---
