@@ -3,4 +3,4 @@
 
 [build]
 publish = "public"
-command = "npm i -g postcss-cli && npm run build"
+command = "npm install & npm i -g postcss-cli && npm run build"
