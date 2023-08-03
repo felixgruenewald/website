@@ -18,6 +18,11 @@ For any questions, please [contact me](mailto:felixgruenewald@outlook.de).
 
 If you decide to use my data for any kind of project, please cite to this website.</i>
 
+---
+**Grünewald, Felix**. "Online tool Tagesschau”, August 1, 2023. _https://felixgruenewald.net_.
+
+---
+
 # Background
 
 For my master's thesis at University Amsterdam, I wanted to write about the media's infuence on the perception of unemployment benefit recipients (broadly, the final topic was much more teechnical). To conduct a measure of salience, i.e., to get a sense of how much the media is talking about unemployment, benefits and the politics surrounding it, I contacted the NDR, producers of the biggest German TV news show about data. They were extremely helpful and cooperative. After a bit of discussion on the best approach, they sent me a total 11.976 subtitle files of every Tagesschau episode between November 2014 and April 2022. 
