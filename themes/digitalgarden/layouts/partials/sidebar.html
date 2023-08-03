@@ -68,6 +68,8 @@
         <span>{{- partial "icon/emailIcon.html" . -}}</span>
         {{ else if eq .Name "RSS" }}
         <span>{{- partial "icon/rssfeedIcon.html" . -}}</span>
+        {{ else if eq .Name "ORCID" }}
+        <span>{{- partial "icon/orcidIcon.html" . -}}</span>
         {{ end }}
       </a>
     </li>

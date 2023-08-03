@@ -1,4 +1,4 @@
-baseURL = "https://felixgruenewald.net"
+baseURL = "https://felixgruenewald.net/"
 languageCode = "en-us"
 title = "Felix Grünewald"
 theme = "digitalgarden"
@@ -28,6 +28,10 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'Home'
   url = '/'
   weight = 1
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 2
 [[menu.main]]
   name = 'Content'
   params.header = true
@@ -67,10 +71,13 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = 'https://twitter.com/felixgruenewald'
   weight = 1
 [[menu.social]]
+  name = 'Mastodon'
+  url = 'https://mastodon.online/@felixgruenewald'
+  weight = 2
+[[menu.social]]
   name = 'GitHub'
   url = 'https://github.com/felixgruenewald'
-  weight = 2
-
+  weight = 3
 [[menu.social]]
   name = 'Email'
   url = 'mailto:felixgruenewald@outlook.de'
@@ -79,6 +86,10 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'RSS'
   url = '/articles/index.xml'
   weight = 9
+[[menu.social]]
+  name = 'ORCID'
+  url = 'https://orcid.org/0000-0002-6179-6693'
+  weight = 10
 
 
 # syntax highlight settings
