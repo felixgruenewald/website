@@ -1,44 +1,30 @@
 [
   {
-    "name": "Bear Notes",
-    "description": "Quick note taking application on Mac for writing down instant thoughts",
-    "link": "https://bear.app/",
-    "icon": "https://blog.bear.app/wp-content/uploads/2018/10/bear-icon.png",
-    "tag": "Productivity"
+    "name": "TU Chemnitz",
+    "description": "My university, go check it out!",
+    "link": "https://www.tu-chemnitz.de/phil/politik/pf/professur/professur.php.en/",
+    "icon": "/images/logo_tu.png",
+    "tag": ""
   },
   {
-    "name": "Cloudflare",
-    "description": "Place for all my domains on the internet",
-    "link": "https://cloudflare.com",
-    "icon": "",
-    "tag": "Webdev"
+    "name": "Hugo",
+    "description": "The framework used to build this website",
+    "link": "https://gohugo.io/",
+    "icon": "https://d33wubrfki0l68.cloudfront.net/d7c79b5c53384a57cfcf5bfb1a3f6f009a058b0b/16f81/images/gopher-hero.svg",
+    "tag": ""
   },
   {
-    "name": "Vercel",
-    "description": "Hosts frontend of projects including this website",
-    "link": "https://vercel.com/",
-    "icon": "",
+    "name": "Digital Garden",
+    "description": "The hugo theme this website is based on",
+    "link": "https://github.com/apvarun/digital-garden-hugo-theme/",
+    "icon": "/images/favicon.ico",
     "tag": ""
   },
   {
     "name": "GitHub",
-    "description": "Code hosting for all projects",
+    "description": "Code hosting for this website",
     "link": "https://github.com/",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
-    "tag": "Webdev"
-  },
-  {
-    "name": "iTerm",
-    "description": "A definitely more functional terminal for Mac",
-    "link": "https://iterm2.com/",
-    "icon": "https://icons.iconarchive.com/icons/froyoshark/enkel/256/iTerm-icon.png",
-    "tag": "Productivity"
-  },
-  {
-    "name": "Figma",
-    "description": "Design tool for all design artifacts and social media handles",
-    "link": "https://www.figma.com/",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-    "tag": "Graphic Design"
+    "tag": ""
   }
 ]
