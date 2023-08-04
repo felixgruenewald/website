@@ -2,7 +2,7 @@
 title: "Topics of Tagesschau"
 date: 2022-08-01
 images:
-- /images/screenshot_plot.png  
+- /images/tagesschau_app_logo.png
 description: "Online Tool to Analyze News Salience in Germany"
 ---
 
