@@ -21,15 +21,18 @@
       <a class="article block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
         {{ $title := .Params.title }}
-        {{ with .Params.images }}
-        {{- range first 1 . }}
-        <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
-        {{ end -}}
-        {{ end }}
+        {{ $subtitle := .Params.subtitle }}
+        {{ $authors := .Params.authors }}
+        {{ $publication := .Params.publication }}
         <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
-        <div
-          class="text-sm {{ if $isCurrentPage }} text-slate-400 {{ else }} text-slate-500 dark:text-slate-400 {{ end }} line-clamp-2">
-          {{ .Summary }}
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          <i>{{ $subtitle}}</i>
+        </div>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          <b>{{ $authors}}</b>
+        </div>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          {{ $publication }}; {{ $date}}
         </div>
       </a>
       {{ end -}}
@@ -41,21 +44,12 @@
     <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
 
       {{ $title := .Params.title }}
+      {{ $subtitle := .Params.subtitle }}
+      {{ $authors := .Params.authors }}
+      {{ $publication := .Params.publication }}
       <h1 class="!mb-2">{{ $title }}</h1>
-
-	  {{ if .Date }}
-      <p class="text-sm text-slate-500 !mb-8"> Planted {{ $date }}
-		{{ if ne $lastmod $date}}
-			<br/> Pruned {{ .Lastmod.Format "January 2, 2006" }}
-        {{ end }}
-	  </p>
-      {{ end }}
-
-      {{ with .Params.images }}
-      {{- range first 1 . }}
-      <img class="rounded max-w-full mx-auto mb-4" src="{{ . }}" alt="{{ $title }}" />
-      {{ end -}}
-      {{ end }}
+      <h4 class="!mb-2">{{ $subtitle }}</h4>
+      <h6 class="!mb-2">{{ $publication }}. {{ $date }}</h6>
 
       {{ .Content }}
     </article>
