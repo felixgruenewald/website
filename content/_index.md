@@ -1,7 +1,7 @@
 ---
 title: Homepage
 ---
-![](/images/profile_pic.jpeg)
+![](/images/profile_pic.png)
 
 # Hello 👋
 
