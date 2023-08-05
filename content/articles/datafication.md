@@ -13,4 +13,9 @@ A paper that I helped writing in between my studies and my Ph.D., but the bigges
 ### Abstract
 Social media platforms are crucial sources of political information during election campaigns, with datafication processes underlying the algorithmic curation of newsfeeds. Recognizing the role of individuals in shaping datafication processes and leveraging the metaphor of news attraction, we study the impact of user curation and networks on mobilization and polarization. In a two-wave online panel survey (n = 943) conducted during the 2021 German federal elections, we investigate the influence of self-reported user decisions, such as following politicians, curating their newsfeed, and being part of politically interested networks, on changes in five democratic key variables: vote choice certainty, campaign participation, turnout, issue reinforcement, and affective polarization. Our findings indicate a mobilizing rather than polarizing effect of algorithmic election news exposure and highlight the relevance of users’ political networks on algorithmic platforms.
 
+### Paper
+
+<iframe src="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/6641/6641" height="1000" width="500" title="Iframe Example"></iframe>
+
+### Download
 [Free Access](https://www.cogitatiopress.com/mediaandcommunication/article/view/6641)
