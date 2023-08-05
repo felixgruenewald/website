@@ -63,9 +63,13 @@ Next, I cleaned the texts by making everything lower space, removing certain ter
 
 I combined all these functions (find the full file under [My Functions](/supplementary/myfunctions)) in a `get_data` function which, for the example file above, gave me the following data with the full text, the meta information and a 'cleaned' version of the text:
 
-| Date       | Text                                              | Moderator       | Cleaned Text                                      | Time | Title                            | Length |
-|----------|----------|----------|------------|----------|----------|----------|
+<div class="table">
+
+| Date | Text | Moderator | Cleaned Text | Time | Title | Length |
+|:----:|:----:|:---------:|:------------:| :---:| :----:| :-----:|
 | 2014-11-01 | Hier ist das Erste Deutsche Fernsehen mit der ... | Susanne Daubner | der bundespräsident gauck äußerte sich in thür... | 2000 | Das_Erste-2014-11-01-ts-2000.txt | 10102  |
+
+</div>
 
 This 'cleaned' text now looks like this:
 
@@ -81,12 +85,16 @@ Bundespräsident Gauck Thüringen Plan Regierung Bodo Ramelow Politiker Linkspar
 
 The last step is now to just transform the data that we have to count the number of words per day. You can find the full script for my processing [here](/process_subtitles.html).
 
+<div class="table">
+
 | Word               | 2014-11-01 | 2014-11-02 | 2014-11-03 | 2014-11-04 | 2014-11-05 | 2014-11-06 | 2014-11-07 | ... |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Überzahl           | 0          | 0          | 0          | 0          | 0          | 0          | 0          | ... |
 | Überzeugung        | 0          | 0          | 0          | 0          | 0          | 0          | 0          | ... |
 | Überzeugungsarbeit | 0          | 0          | 0          | 0          | 0          | 0          | 0          | ... |
 | Übung              | 0          | 0          | 0          | 0          | 0          | 0          | 0          | ... |
+
+</div>
 
 Even after removing verbs, adjectives etc., this data set is still *large*. Putting it in a shiny application would have meant that every user would have to download the full thing, which is not only a waste of energy, but also too much for my shiny data limits. So, I exported this data and loaded it to a [MongoDB](https://www.mongodb.com/try/download/community-edition) that I created, using the `mongolite` R-package. This allows to access one line of the data at a time, using search queries:
 
