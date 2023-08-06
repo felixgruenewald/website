@@ -10,7 +10,7 @@ description: "Online Tool to Analyze News Salience in Germany"
 
 You can select up to three terms, choose the unit of time, visualize the use of the words and finally download the data for further analysis. If you want to know how this was made, scroll down. Have fun!
 
-<b>Note:<b> Data for 2014 and 2022 is not complete, as you can see in the daily view. Their yearly sum is therefore not representative of the full year, of course.
+**Note:** Data for 2014 and 2022 is not complete, as you can see in the daily view. Their yearly sum is therefore not representative of the full year, of course.
 
 <iframe height="1100" width="100%" frameborder="no" src="https://felixgruenewald.shinyapps.io/tagesschau_app/"></iframe>
 
