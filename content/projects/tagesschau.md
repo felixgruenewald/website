@@ -10,6 +10,8 @@ description: "Online Tool to Analyze News Salience in Germany"
 
 You can select up to three terms, choose the unit of time, visualize the use of the words and finally download the data for further analysis. If you want to know how this was made, scroll down. Have fun!
 
+<b>Note:<b> Data for 2014 and 2022 is not complete, as you can see in the daily view. Their yearly sum is therefore not representative of the full year, of course.
+
 <iframe height="1100" width="100%" frameborder="no" src="https://felixgruenewald.shinyapps.io/tagesschau_app/"></iframe>
 
 <i><b>Disclaimer:</b> I can and do not want to guarantee for the correctness of these numbers. I used third-party packages to get the stems of words, and while in my experience, they work well, I do not have the resources to double check the numbers with the actual texts. To keep file sizes manageable (especially for my budget which doesn't allow for paid file hosting plans), the dataset here only includes nouns and proper names. Anything else, I only have locally but might make available at a later point.
@@ -66,7 +68,7 @@ I combined all these functions (find the full file under [My Functions](/supplem
 <div class="table">
 
 | Date | Text | Moderator | Cleaned Text | Time | Title | Length |
-|:----:|:----:|:---------:|:------------:| :---:| :----:| :-----:|
+|:----:|:----:|:---------:|:------------:| :---:| :----:| :-------:|
 | 2014-11-01 | Hier ist das Erste Deutsche Fernsehen mit der ... | Susanne Daubner | der bundespräsident gauck äußerte sich in thür... | 2000 | Das_Erste-2014-11-01-ts-2000.txt | 10102  |
 
 </div>
