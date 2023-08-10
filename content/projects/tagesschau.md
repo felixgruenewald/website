@@ -65,7 +65,7 @@ Next, I cleaned the texts by making everything lower space, removing certain ter
 
 I combined all these functions (find the full file under [My Functions](/supplementary/myfunctions)) in a `get_data` function which, for the example file above, gave me the following data with the full text, the meta information and a 'cleaned' version of the text:
 
-<div class="table" style="overflow:scroll">
+<div class="table" style="overflow: auto; display: block">
 
 | Date | Text | Moderator | Cleaned Text | Time | Title | Length |
 |:----:|:----:|:---------:|:------------:| :---:| :----:| :-------:|
@@ -87,7 +87,7 @@ Bundespräsident Gauck Thüringen Plan Regierung Bodo Ramelow Politiker Linkspar
 
 The last step is now to just transform the data that we have to count the number of words per day. You can find the full script for my processing [here](/process_subtitles.html).
 
-<div class="table" style="overflow:scroll">
+<div class="table" style="overflow: auto; display: block">
 
 | Word               | 2014-11-01 | 2014-11-02 | 2014-11-03 | 2014-11-04 | 2014-11-05 | 2014-11-06 | 2014-11-07 | ... |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
