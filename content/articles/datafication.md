@@ -15,7 +15,12 @@ Social media platforms are crucial sources of political information during elect
 
 ### Paper
 
-<iframe src="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/6641/6641" height="1000" width="500" title="Iframe Example"></iframe>
+<iframe src="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/6641/6641"
+    frameborder="0"
+    scrolling="no" 
+    style="overflow:hidden;height:600;width:100%" 
+    height="1000" 
+    width="100%"></iframe>
 
 ### Download
 [Free Access](https://www.cogitatiopress.com/mediaandcommunication/article/view/6641)
