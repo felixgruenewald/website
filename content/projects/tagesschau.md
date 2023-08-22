@@ -142,4 +142,4 @@ plot_ly(df, x = ~Date) %>%
               hoverinfo = ~get(word1))
 ```
 
-Thanks for reading through all this (granted you didn't skip over everything, of course). Please send me a text, if you have questions or remarks and I hope this was helpful or at least interesting!
+Thanks for reading through all this (granted you didn't skip over everything, of course). Please send me a text, if you have questions or remarks and I hope this was helpful or at least interesting! 
