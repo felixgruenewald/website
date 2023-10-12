@@ -47,9 +47,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
-        run: npm i -g postcss-cli && npm run build
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm i -g postcss-cli && npm run build || true"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
