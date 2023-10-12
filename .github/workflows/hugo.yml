@@ -63,6 +63,7 @@ jobs:
 
       - name: Build with Hugo
         run: npm i -g postcss-cli && npm run build
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
