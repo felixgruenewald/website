@@ -61,8 +61,8 @@ jobs:
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
           cache-dependency-path: '**/package-lock.json'
 
-        run: npm i -g postcss-cli && npm run build
-        run: hugo --minify
+      - run: npm i -g postcss-cli && npm run build
+      - run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
