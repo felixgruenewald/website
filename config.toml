@@ -1,4 +1,5 @@
-baseURL = "https://felixgruenewald.net/"
+# baseURL = "https://felixgruenewald.net/"
+baseURL = "https://felixgruenewald.github.io/website/"
 languageCode = "en-us"
 title = "Felix Grünewald"
 theme = "digitalgarden"
